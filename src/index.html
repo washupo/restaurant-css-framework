@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="scss/styles.scss">
+    <title>Afrik'n'Fusion</title>
+  </head>
+
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-lightred bg-gradient fixed-top shadow-lg justify-content-md-center">
+        <div class="container">
+          <!--Logo/Brand-->
+          <a class="navbar-brand text-uppercase fw-bold" href="index.html">Afrik'n'Fusion</a>
+          <!--Toogle button-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <!--Collapse (mobile)-->
+        <div class=" collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item pt-1">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item pt-1">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item pt-1">
+              <a class="nav-link" href="pictures.html">Best-sellers</a>
+            </li>
+            <li class="nav-item pt-1">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item pt-1">
+              <a class="nav-link" href="restaurants.html">Restaurants</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  
+    <main class="pt-5">
+
+      <!-- Hero section + Background -->
+      <div class="container-fluid p-3 bg-image min-vh-100 d-flex align-items-center text-center text-light" style="background-image: url(médias/stefan-vladimirov-Q_Moi2xjieU-unsplash.png); background-size: cover; background-position: center center;" alt="Hero section">
+        <!-- Jumbotron -->
+        <div class="container-fluid d-flex flex-column align-items-center p-5">
+            <h1 class="display-1 fw-bold text-uppercase">Afrik'n'Fusion</h1>
+            <p class="col-md-8 fs-4 text-center"><em>Leader de la restauration fast casual africaine depuis 2011</em></p>
+            <a class="btn btn-red btn-lg fw-bold bg-gradient shadow text-light" type="button" href="menu.html">See menu</a>
+        </div>
+      </div> 
+
+        <!--Event + Promo panels-->
+        <div class="container-fluid py-3 bg-lightred bg-gradient">
+          <div class="row row-cols-1 row-cols-md-2 text-center">
+
+          <!-- Promo panel -->
+          <div class="col pb-4 d-flex justify-content-center ">
+
+          <div class="card align-items-stretch mt-3 shadow border-0 mb-3" style="width: 18rem;">
+            <div class="card-header text-uppercase fw-bold text-center bg-lightred text-light">
+              Promo of the week
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item text-center pt-3">
+                <p class="fw-semibold display-4">Buy 1 drink, <br> Get 1 free</p>
+                <p class="fw-light display-6">09/10 - 13/10</p>
+              </li>
+              <li class="list-group-item text-center pt-3">
+                <p class="fw-semibold display-4">1 free dessert <br> @ lunch</p>
+                <p class="fw-light display-6">09/10 - 13/10</p>
+              </li>
+            </ul>
+          </div>
+          </div>
+
+          <!-- Event panel -->
+          <div class="col d-flex justify-content-center">
+
+          <div class="card mt-3 shadow border-0 mb-3" style="width: 18rem;">
+            <div class="card-header text-uppercase fw-bold text-center bg-lightred text-light">
+            Events
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item text-center">
+                <h3 class="fw-semibold display-4">Afterwork</h3>
+                <p class="display-6">12/10</p>
+                <p class="fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </li>
+              <li class="list-group-item text-center">
+                <h3 class="fw-semibold display-4">Open mic</h3>
+                <p class="display-6">13/10</p>
+                <p class="fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </li>
+            </ul>
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,25 @@
+@import "bootstrap/scss/bootstrap";
+
+.bg-lightred { 
+    background-color: $red-600;
+   }
+  
+.bg-red {
+    background-color: $red-800;
+  }
+    
+  .btn-red  {
+    background-color: $red-600;
+  }
+
+.bg-orange {
+  background-color: $orange-500;
+}
+
+.bg-green {
+  background-color: $teal-700;
+}
+
+.bg-yellow {
+  background-color: $yellow-500;
+}
