@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Bootstrap demo</title>
+    <script src="script.js"></script>
+    <script type="module" crossorigin src="/restaurant-css-framework/assets/main-c01f4460.js"></script>
+    <link rel="stylesheet" href="/restaurant-css-framework/assets/main-94606936.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark bg-lightred bg-gradient fixed-top shadow-lg">
+        <div class="container">
+          <!--Logo/Brand-->
+          <a class="navbar-brand text-uppercase fw-bold" href="index.html">Afrik'n'Fusion</a>
+          <!--Toogle button-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <!--Collapse (mobile)-->
+        <div class=" collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item pt-1">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item pt-1">
+              <a class="nav-link" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item pt-1">
+              <a class="nav-link" href="pictures.html">Best-sellers</a>
+            </li>
+            <li class="nav-item pt-1">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item pt-1">
+              <a class="nav-link" href="restaurants.html">Restaurants</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+      
+      <!-- Carousel + Pagination-->
+      <main class="min-vh-100 bg-lightred bg-gradient pt-5">
+        <div id="carouselExampleCaptions" class="carousel slide px-4 py-5">
+          <h1 class="display-3 text-center text-light text-uppercase fw-bold">Best-sellers</h1> 
+        <!--Carousel/Card-->
+        <div class="carousel-inner" id="custom-cards">
+        <!-- Carousel 1/Starters-->
+        <div class="carousel-item active">
+          <h2 class="text-center text-light">Starters</h2>
+          <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-3">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/restaurant-css-framework/assets/ailepoulet-197b7db9.jpg'); background-size: cover; background-position: center center;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Chicken wings</h3>
+                    <!--<ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Earth</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>3d</small>
+                      </li>
+                    </ul>-->
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/restaurant-css-framework/assets/kabir-cheema-8T9AVksyt7s-unsplash-2342d823.jpg'); background-size: cover; background-position: center center;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Samoussa</h3>
+                    <!--<ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Pakistan</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>4d</small>
+                      </li>
+                    </ul>-->
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/restaurant-css-framework/assets/plantain-f7567adb.jpg'); background-size: cover; background-position: center center;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Alokos</h3>
+                    <!--<ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>California</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>5d</small>
+                      </li>
+                    </ul>-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <!-- Carousel 2 / Main dishes-->
+        <div class="carousel-item">
+          <h2 class="text-center text-light">Main dishes</h2>
+          <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-3">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/restaurant-css-framework/assets/aldrin-rachman-pradana-B_1GyWCsc1s-unsplash-8a0118b5.jpg'); background-size: cover; background-position: center center;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Food name</h3>
+                    <!--<ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Earth</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>3d</small>
+                      </li>
+                    </ul>-->
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/restaurant-css-framework/assets/keesha-s-kitchen-eaSIzdS8pv0-unsplash-95b7ad9f.jpg'); background-size: cover; background-position: center center;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Food name</h3>
+                    <!--<ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Pakistan</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>4d</small>
+                      </li>
+                    </ul>-->
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/restaurant-css-framework/assets/nathan-dumlao-1lAIRAsv3C4-unsplash-a1023e7f.jpg'); background-size: cover; background-position: center center;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Food name</h3>
+                    <!--<ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>California</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>5d</small>
+                      </li>
+                    </ul>-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <!-- Carousel 3 / Desserts-->
+        <div class="carousel-item">
+          <h2 class="text-center text-light">Desserts</h2>
+          <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-3">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/restaurant-css-framework/assets/fondant-4ef09d48.jpg'); background-size: cover; background-position: center center;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Chocolate fondant</h3>
+                    <!--<ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Earth</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>3d</small>
+                      </li>
+                    </ul>-->
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/restaurant-css-framework/assets/jo-sonn-zeFy-oCUhV8-unsplash-2d2d5015.jpg'); background-size: cover; background-position: center center;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Fruits salad</h3>
+                    <!--<ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Pakistan</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>4d</small>
+                      </li>
+                    </ul>-->
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/restaurant-css-framework/assets/pexels-polina-tankilevitch-4110334-02cf42c0.jpg'); background-size: cover; background-position: center center;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Roasted pineapple</h3>
+                    <!--<ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>California</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>5d</small>
+                      </li>
+                    </ul>-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <!-- Carousel 4 / Drinks-->
+        <div class="carousel-item">
+          <h2 class="text-center text-light">Drinks</h2>
+          <div class="container">
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-3">
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/restaurant-css-framework/assets/jusmangue-7f70c4c3.jpg'); background-size: cover; background-position: center 25%">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Mango juice</h3>
+                    <!--<ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Earth</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>3d</small>
+                      </li>
+                    </ul>-->
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('/restaurant-css-framework/assets/yeoul-shin-XAM9egfBilk-unsplash-a1aec22c.jpg'); background-size: cover; background-position: center center;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Bissap</h3>
+                    <!--<ul class="d-flex list-unstyled mt-auto">
+                      <li class="me-auto">
+                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                      </li>
+                      <li class="d-flex align-items-center me-3">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                        <small>Pakistan</small>
+                      </li>
+                      <li class="d-flex align-items-center">
+                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                        <small>4d</small>
+                      </li>
+                    </ul>-->
+                  </div>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+          
+        </div>
+
+        </div>  
+
+      <!-- Pagination-->
+
+      <nav class="d-flex justify-content-center" aria-label="Page navigation example">
+          <div class="btn-group pagination" role="group" aria-label="button group">
+            <a href="#carouselExampleCaptions" data-bs-slide-to="prev" class="page-item btn btn-red btn-outline-light" aria-current="page">Previous</a>
+            <a href="#carouselExampleCaptions" data-bs-slide-to="0" class="page-item btn btn-red btn-outline-light" aria-current="page">1</a>
+            <a href="#carouselExampleCaptions" data-bs-slide-to="1" class="page-item btn btn-red btn-outline-light" aria-current="page">2</a>
+            <a href="#carouselExampleCaptions" data-bs-slide-to="2" class="page-item btn btn-red btn-outline-light" aria-current="page">3</a>
+            <a href="#carouselExampleCaptions" data-bs-slide-to="3" class="page-item btn btn-red btn-outline-light" aria-current="page">4</a>
+            <a href="#carouselExampleCaptions" data-bs-slide-to="next" class="page-item btn btn-red btn-outline-light" aria-current="page">Next</a>
+
+            <!-- <li  aria-current="page"><a class="page-link" role="button" >1</a></li>
+            <a class="page-link" role="button"></a>
+            <a class="page-link" href="#carouselExampleCaptions" role="button" data-bs-slide-to="1">2</a>
+            <a class="page-link" href="#carouselExampleCaptions" role="button" data-bs-slide-to="2">3</a>
+            <a class="page-link" href="#carouselExampleCaptions" role="button" data-bs-slide-to="3">4</a>
+            <a class="page-link" role="button" >Next</a>-->
+        </div>
+      </nav> 
+      
+
+      <!-- <nav  aria-label="Page navigation example">
+        <ul class="pagination ">
+    
+          <li><a class="page-link carousel-control-prev" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev" href="#">Previous</a></li>
+          <li class="active" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" aria-label="Page 1"><a class="page-link" aria-current="true"  href="#">1</li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Page 2">2</li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Page 3" >3</li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Page 4">4</li>
+          <li class="page-item"><a class="page-link carousel-control-next" data-bs-target="#carouselExampleCaptions" data-bs-slide="next" href="#">Next</a></li>
+    
+        </ul>
+      </nav> -->    
+        
+      
+      </main>
+
+      
+          
+      
+      
+      
+
+    </div>
+
+    
+  </body>
+</html>
+
