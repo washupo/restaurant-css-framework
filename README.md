@@ -2,8 +2,11 @@
 
 ![Bootstrap](https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png)
 
-## Lien des consignes
-[[https://github.com/becodeorg/BXLAnderlecht/blob/master/08-AJAX/php-chat.md](https://github.com/becodeorg/Swartz-8/blob/main/1.The-Field/10.Bootstrap/restaurant.adoc)
+# Live demo
+[Live demo](https://washupo.github.io/restaurant-css-framework/)
+
+<!-- ## Lien des consignes
+[[https://github.com/becodeorg/BXLAnderlecht/blob/master/08-AJAX/php-chat.md](https://github.com/becodeorg/Swartz-8/blob/main/1.The-Field/10.Bootstrap/restaurant.adoc) -->
 
 ## Langages, framework utilisés ?
 
